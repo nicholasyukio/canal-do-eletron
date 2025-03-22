@@ -1,4 +1,3 @@
-import Image from "next/image";
 // components/ui/footer.tsx
 const Footer = () => {
     return (

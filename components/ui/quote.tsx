@@ -30,6 +30,7 @@ const Quote = () => {
 
     if (response.ok) {
       setStatus("success");
+      console.log(status);
       setFormData({ nome: "", email: "", telefone: "", detalhes: "", prazo: "daqui 1 semana", preferenciaDesign: ""});
     } else {
       setStatus("error");

@@ -1,49 +1,14 @@
-import Image from "next/image";
 import Header from '@/components/ui/header';
 import Footer from '@/components/ui/footer';
 import Section from '@/components/ui/section';
 import Quote from '@/components/ui/quote';
-import ServicesSection from '@/components/ui/ServicesSection';
 
-const servicesData = [
-  {
-    title: 'Custom Website Design',
-    description:
-      'Our team crafts stunning custom designs that reflect your brand\'s identity, creating a seamless user experience.',
-  },
-  {
-    title: 'E-Commerce Solutions',
-    description:
-      'We build secure, scalable, and user-friendly e-commerce platforms that drive sales and growth for your business.',
-  },
-  {
-    title: 'E-Commerce Solutions',
-    description:
-      'We build secure, scalable, and user-friendly e-commerce platforms that drive sales and growth for your business.',
-  },
-  {
-    title: 'E-Commerce Solutions',
-    description:
-      'We build secure, scalable, and user-friendly e-commerce platforms that drive sales and growth for your business.',
-  },
-  {
-    title: 'Custom Website Design',
-    description:
-      'Our team crafts stunning custom designs that reflect your brand\'s identity, creating a seamless user experience.',
-  },
-  {
-    title: 'E-Commerce Solutions',
-    description:
-      'We build secure, scalable, and user-friendly e-commerce platforms that drive sales and growth for your business.',
-  },
-  // Add more services as needed
-];
 
 export default function Home() {
   return (
     <>
     <Header />
-    <div className="grid grid-rows-[10px_1fr_10px] items-center justify-items-center min-h-screen p-4 pb-16 gap-8 sm:p-8 font-[family-name:var(--font-geist-sans)] bg-blue-100">
+    <div className="grid grid-rows-[10px_1fr_10px] ites-center justify-items-center min-h-screen p-4 pb-16 gap-8 sm:p-8 font-[family-name:var(--font-geist-sans)] bg-blue-100">
       
       <main className="flex flex-col gap-[6px] row-start-2 items-center sm:items-start">
       <Section
